@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Encontre no Google</h3>
+    <form action="https://www.google.com/search">
+      <label for="q">O que deseja pesquisar?</label>
+      <!-- O atributo required torna o preenchimento do input obrigatório -->
+      <input type="text" id="q" name="q" placeholder="Nasa, SpaceX" required />
+      <input type="submit" value="Pesquisar" />
+      <!-- Colocando type email, vai ser obrigatório a presença do @ -->
+      <input type="email" />
+      <!-- min e max vai restringir o valor que pode ser digitado -->
+      <input type="number" min="10" max="12" />
+      <!-- Existem muitos outros tipos de validação, confirer documentação -->
+    </form>
+  </body>
+</html>
