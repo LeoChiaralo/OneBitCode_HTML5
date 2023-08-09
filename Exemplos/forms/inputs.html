@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Encontre</h3>
+    <form action="https://www.example.com">
+      <input type="text" name="firstname" />
+      <br />
+      <br />
+      <input type="password" name="psw" />
+      <br />
+      <br />
+      <!-- No type radio é preciso manter o mesmo name em todas as opções -->
+      <!-- O atributo checked, já deixa marcada a opção -->
+      <input type="radio" name="gender" value="male" checked /> Male<br />
+      <input type="radio" name="gender" value="female" /> Female<br />
+      <input type="radio" name="gender" value="other" /> Other
+      <br />
+      <br />
+      <input type="checkbox" name="vehicle1" value="Bike" /> I have a bike<br />
+      <input type="checkbox" name="vehicle2" value="Car" /> I have a car
+      <br />
+      <br />
+      <input type="color" name="favcolor" />
+      <br />
+      <br />
+      <input type="date" name="bday" />
+      <br />
+      <br />
+      Select a file: <input type="file" name="myFile" />
+      <br />
+      <br />
+      <input type="search" name="googlesearch" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <!-- Existem vários outros types, olhar na documentção -->
+    </form>
+  </body>
+</html>
